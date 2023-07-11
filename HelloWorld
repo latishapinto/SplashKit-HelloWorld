@@ -1,0 +1,85 @@
+Latisha@TripleA679 MINGW64 ~
+$ update
+bash: update: command not found
+
+Latisha@TripleA679 MINGW64 ~
+$ skm update
+No local changes to save
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 15 (delta 9), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (15/15), 3.69 KiB | 151.00 KiB/s, done.
+From https://github.com/splashkit/skm
+   1d83444..3cd2387  master     -> origin/master
+Updating 1d83444..3cd2387
+Fast-forward
+ clang++/include/networking.h | 1 +
+ fix/dotnet/skm_fix_dotnet.sh | 4 ++--
+ g++/include/networking.h     | 1 +
+ 3 files changed, 4 insertions(+), 2 deletions(-)
+🎉  update command run successfully 🎉
+
+Latisha@TripleA679 MINGW64 ~
+$ cd /c/Users/Latisha/Documents/Code
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code
+$ pwd
+/c/Users/Latisha/Documents/Code
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code
+$ mkdir HelloWorld
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code
+$ cd HelloWorld
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ skm new c++
+🎉  new command run successfully 🎉
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ ls -lha
+total 10K
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:21 .
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:20 ..
+-rw-r--r-- 1 Latisha Latisha 156 Jul 12 05:21 .editorconfig
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:21 .vscode
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:21 include
+-rw-r--r-- 1 Latisha Latisha  57 Jul 12 05:21 program.cpp
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ code
+bash: code: command not found
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ s -lha
+bash: s: command not found
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ ls -lha
+total 10K
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:21 .
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:20 ..
+-rw-r--r-- 1 Latisha Latisha 156 Jul 12 05:21 .editorconfig
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:21 .vscode
+drwxr-xr-x 1 Latisha Latisha   0 Jul 12 05:21 include
+-rw-r--r-- 1 Latisha Latisha 127 Jul 12 05:23 program.cpp
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ pwd
+/c/Users/Latisha/Documents/Code/HelloWorld
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ skm clang++ program.cpp -o HelloWorld
+🎉  clang++ command run successfully 🎉
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ ./a.out
+bash: ./a.out: No such file or directory
+
+Latisha@TripleA679 MINGW64 /c/Users/Latisha/Documents/Code/HelloWorld
+$ ./HelloWorld
+Hello World!
+By Latisha Pinto
